@@ -52,7 +52,7 @@ const ExchangeCard = ({ name, img, rank, url }) => {
   const slideIn = useSpring({
     from: { transform: 'translateX(100px)', opacity: 0 },
     to: { transform: 'translateX(0)', opacity: 1 },
-    config: { duration: 1000 },
+    config: { duration: 500 },
   });
   return (
     <a href={url} target={"blank"}>

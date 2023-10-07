@@ -13,7 +13,7 @@ function Home() {
   const continuousMoveUpDown = useSpring({
     from: { transform: 'translateY(0)', opacity: 1 },
     to: async next => {
-      // eslint-disable-next-line no-constant-condition
+     
       while (true) {
         await next({ transform: 'translateY(-6px)' });
         await next({ transform: 'translateY(6px)' });

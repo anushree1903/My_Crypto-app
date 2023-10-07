@@ -5,7 +5,7 @@ const CoinCard = ({ id, name, img, symbol, price, currencySymbol = "₹"  }) => 
   const slideIn = useSpring({
     from: { transform: 'translateX(100px)', opacity: 0 },
     to: { transform: 'translateX(0)', opacity: 1 },
-    config: { duration: 1000 },
+    config: { duration: 500 },
   });
   return (
     <Link to={`/coin/${id}`}>
