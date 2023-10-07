@@ -7,7 +7,7 @@ function Home() {
   const slideIn = useSpring({
     from: { transform: 'translateX(-100%)', opacity: 0 },
     to: { transform: 'translateX(0)', opacity: 1 },
-    config: { duration: 2000 }, 
+    config: { duration: 1000 }, 
   });
 
   const continuousMoveUpDown = useSpring({
