@@ -1,6 +1,6 @@
 import copy1 from '../assets/copy1.jpeg';
 import { useSpring, animated } from 'react-spring';
-import exchanges from './Exchanges'
+
 
 function Home() {
   
@@ -37,9 +37,7 @@ function Home() {
         <h3 className="text-gray-800 md:leading-loose text-justify text-sm mt-5"> A digital currency exchange, is a business that allows customers to trade cryptocurrencies, or digital currencies for other assets, such as conventional fiat money or other digital currencies.</h3>
         <button
         className='rounded-md bg-gradient-to-r from-blue-500 to-blue-400 hover:text-white p-1 w-20 font-semi-bold md:mt-5 mt-5'
-        onClick={() => {
-          window.location.href = '/exchanges';
-  }}
+       
 >
   Explore
 </button>
